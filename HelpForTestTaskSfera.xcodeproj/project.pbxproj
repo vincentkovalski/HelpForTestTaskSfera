@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84104F3FCF55730954AAD2CF /* libPods-HelpForTestTaskSfera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5457F3C6BB368A42CD5030B3 /* libPods-HelpForTestTaskSfera.a */; };
 		F1FA4A49292BABFA002F82E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA4A48292BABFA002F82E9 /* AppDelegate.swift */; };
 		F1FA4A4D292BABFA002F82E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA4A4C292BABFA002F82E9 /* ViewController.swift */; };
 		F1FA4A52292BABFC002F82E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FA4A51292BABFC002F82E9 /* Assets.xcassets */; };
 		F1FA4A55292BABFC002F82E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA4A53292BABFC002F82E9 /* LaunchScreen.storyboard */; };
+		F1FA4A5D292BAFF3002F82E9 /* AlamofireNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA4A5C292BAFF3002F82E9 /* AlamofireNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06E94DEE0F16193A98868A74 /* Pods-HelpForTestTaskSfera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpForTestTaskSfera.debug.xcconfig"; path = "Target Support Files/Pods-HelpForTestTaskSfera/Pods-HelpForTestTaskSfera.debug.xcconfig"; sourceTree = "<group>"; };
+		5457F3C6BB368A42CD5030B3 /* libPods-HelpForTestTaskSfera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelpForTestTaskSfera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39CFD203154D2E547024C8F /* Pods-HelpForTestTaskSfera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpForTestTaskSfera.release.xcconfig"; path = "Target Support Files/Pods-HelpForTestTaskSfera/Pods-HelpForTestTaskSfera.release.xcconfig"; sourceTree = "<group>"; };
 		F1FA4A45292BABFA002F82E9 /* HelpForTestTaskSfera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpForTestTaskSfera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FA4A48292BABFA002F82E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FA4A4C292BABFA002F82E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1FA4A51292BABFC002F82E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1FA4A54292BABFC002F82E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1FA4A56292BABFC002F82E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FA4A5C292BAFF3002F82E9 /* AlamofireNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84104F3FCF55730954AAD2CF /* libPods-HelpForTestTaskSfera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BCFE27B2BCAD7B2499803B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06E94DEE0F16193A98868A74 /* Pods-HelpForTestTaskSfera.debug.xcconfig */,
+				E39CFD203154D2E547024C8F /* Pods-HelpForTestTaskSfera.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F1FA4A3C292BABFA002F82E9 = {
 			isa = PBXGroup;
 			children = (
 				F1FA4A47292BABFA002F82E9 /* HelpForTestTaskSfera */,
 				F1FA4A46292BABFA002F82E9 /* Products */,
+				7BCFE27B2BCAD7B2499803B6 /* Pods */,
+				F90FD07D67F8B3328F3226C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +73,20 @@
 			children = (
 				F1FA4A48292BABFA002F82E9 /* AppDelegate.swift */,
 				F1FA4A4C292BABFA002F82E9 /* ViewController.swift */,
+				F1FA4A5C292BAFF3002F82E9 /* AlamofireNetwork.swift */,
 				F1FA4A51292BABFC002F82E9 /* Assets.xcassets */,
 				F1FA4A53292BABFC002F82E9 /* LaunchScreen.storyboard */,
 				F1FA4A56292BABFC002F82E9 /* Info.plist */,
 			);
 			path = HelpForTestTaskSfera;
+			sourceTree = "<group>";
+		};
+		F90FD07D67F8B3328F3226C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5457F3C6BB368A42CD5030B3 /* libPods-HelpForTestTaskSfera.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1FA4A59292BABFC002F82E9 /* Build configuration list for PBXNativeTarget "HelpForTestTaskSfera" */;
 			buildPhases = (
+				D999FA8B4FB6693EE0FE17E2 /* [CP] Check Pods Manifest.lock */,
 				F1FA4A41292BABFA002F82E9 /* Sources */,
 				F1FA4A42292BABFA002F82E9 /* Frameworks */,
 				F1FA4A43292BABFA002F82E9 /* Resources */,
@@ -126,12 +155,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D999FA8B4FB6693EE0FE17E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelpForTestTaskSfera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1FA4A41292BABFA002F82E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F1FA4A4D292BABFA002F82E9 /* ViewController.swift in Sources */,
+				F1FA4A5D292BAFF3002F82E9 /* AlamofireNetwork.swift in Sources */,
 				F1FA4A49292BABFA002F82E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +321,7 @@
 		};
 		F1FA4A5A292BABFC002F82E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E94DEE0F16193A98868A74 /* Pods-HelpForTestTaskSfera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +353,7 @@
 		};
 		F1FA4A5B292BABFC002F82E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39CFD203154D2E547024C8F /* Pods-HelpForTestTaskSfera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

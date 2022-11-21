@@ -1,0 +1,6 @@
+module Pods_HelpForTestTaskSfera {
+  umbrella header "Pods-HelpForTestTaskSfera-umbrella.h"
+
+  export *
+  module * { export * }
+}
